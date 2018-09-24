@@ -12,12 +12,7 @@
 				text-align: center;
 			}
 		</style>
-	</head>
-	<body>
-		<h1 style="text-align: center;">Mathematical Misadventures</h1>
-		<div class="graphcontainer">
-			<canvas id="maingraph" class="graph"></canvas>
-		</div>
+		<script src="https://www.github.com/coolcuber/coolcuber.github.io/blob/master/mathmis.js"></script>
 		<script>
 			var canvas = document.getElementById("maingraph");
 			var w = canvas.width;
@@ -28,14 +23,12 @@
 			ctx.moveTo(0, h/2);
 			ctx.lineTo(w, h/2);
 			ctx.stroke();
-			
-			function drawline(int x, int y, var func(x, y)) {
-				
-			}
-			
-			function getx(int x) {
-				return 20*(x-(w/2))/w
-			}
 		</script>
+	</head>
+	<body>
+		<h1 style="text-align: center;">Mathematical Misadventures</h1>
+		<div class="graphcontainer">
+			<canvas id="maingraph" class="graph"></canvas>
+		</div>
 	</body>
 </html>
